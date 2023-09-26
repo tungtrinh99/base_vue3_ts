@@ -1,0 +1,35 @@
+{
+  "name": "base-vue3-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.14",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.5",
+    "vue-cookies": "^1.8.3",
+    "vue-tsc": "^1.8.5"
+  }
+}
